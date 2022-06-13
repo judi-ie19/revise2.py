@@ -9,7 +9,8 @@ def duplicates():
     if n not in new_list:
       new_list.append(n)
       print(new_list) 
-duplicates()      
+duplicates()
+
 #  Write a Python program to append a list to the second list.
 
 # Use num = [10,5,3,78,13,56,2,9,8,4]
@@ -27,6 +28,7 @@ duplicates()
 numbers=[1,2,3,4,5,6]
 numbers=[x for x in numbers if x%2!=0]
 print(numbers)
+
 #  Write a Python program to append a list to the second list.
 list1=[1,2,3,4,5,6,7] 
 list2=['apple','mango','watermelon','orange']
